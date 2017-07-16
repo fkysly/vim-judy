@@ -36,3 +36,4 @@ call plug#end()
 
 let mapleader=','
 noremap <leader>q :q<cr>
+noremap <leader>w :w<cr>
