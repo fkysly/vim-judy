@@ -1,5 +1,6 @@
 syntax enable
 syntax on
+filetype on
 set ruler
 set showcmd
 set autoindent
@@ -27,15 +28,10 @@ set termencoding=utf-8
 set showmatch
 set matchtime=1
 set noeb
-
 set nocompatible
-filetype off
 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+call plug#begin()
+Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
+call plug#end()
 
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'udalov/kotlin-vim'
 
-call vundle#end()
-filetype on
