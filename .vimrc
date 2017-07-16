@@ -34,4 +34,5 @@ call plug#begin()
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
 call plug#end()
 
-
+let mapleader=','
+noremap <leader>q :q<cr>
