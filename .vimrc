@@ -37,6 +37,7 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'pangloss/vim-javascript'
 Plug 'Raimondi/delimitMate'
 Plug 'majutsushi/tagbar'
+Plug 'bling/vim-airline'
 call plug#end()
 
 let mapleader=','
