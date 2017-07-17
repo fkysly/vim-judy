@@ -8,7 +8,7 @@ then
 
 elif which brew > /dev/null
 then
-  brew install g++ ctags
+  brew install ctags
 fi
 
 mv -f ~/.vim ~/.vim_old > /dev/null 2>&1
