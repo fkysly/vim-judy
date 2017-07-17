@@ -13,7 +13,8 @@ mkdir ~/.vim
 cp -R ./colors ~/.vim
 
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-git clone https://github.com/fatih/vim-go.git ~/.vim/plugged/vim-go
+
+vim -c "PlugInstall" -c "q" -c "q"
 
 cd ..
 rm -rf ./vim-judy
