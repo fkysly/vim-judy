@@ -1,4 +1,4 @@
-syntax enable
+Hyntax enable
 syntax on
 filetype on
 set cul
@@ -52,6 +52,30 @@ noremap <C-j> <C-W>j
 noremap <C-h> <C-W>h
 noremap <C-k> <C-W>k
 noremap <C-l> <C-W>l
+noremap <C-J> <C-W>J
+noremap <C-H> <C-W>H
+noremap <C-K> <C-W>K
+noremap <C-L> <C-W>L
+
+map <leader><leader> :NERDTreeToggle<CR>
+
+set tags+=/usr/include/tags
+set tags+=~/.vim/systags
+set tags+=~/.vim/x86_64-linux-gnu-systags
+
+" tagbar
+let g:tabbar_width=30
+map <leader>t :TagbarToggle<CR>
+
+" solarized
+set background=dark
+"let g:solarized_termcolors=256
+let g:solarized_termtrans=1
+colorscheme solarized
+
+" airline-theme
+let g:airline_theme='solarized'
+let g:airline_solarized_bg='dark'
 
 map <leader><leader> :NERDTreeToggle<CR>
 
