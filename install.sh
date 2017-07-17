@@ -5,10 +5,11 @@ echo "installing vim-judy..."
 if which apt-get > /dev/null
 then
   sudo apt-get install -y ctags build-essential cmake
+  go get -u github.com/jstemmer/gotags
 
 elif which brew > /dev/null
 then
-  brew install ctags
+  brew install ctags gotags
 fi
 
 mv -f ~/.vim ~/.vim_old > /dev/null 2>&1
