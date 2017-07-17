@@ -35,10 +35,20 @@ Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'pangloss/vim-javascript'
+Plug 'Raimondi/delimitMate'
+Plug 'majutsushi/tagbar'
 call plug#end()
 
 let mapleader=','
 noremap <leader>q :q<cr>
 noremap <leader>w :w<cr>
 
-map <leader><leader> :NERDTreeToggle<CR>
+map <leader>n :NERDTreeToggle<CR>
+
+set tags+=/usr/include/tags
+set tags+=~/.vim/systags
+set tags+=~/.vim/x86_64-linux-gnu-systags
+
+" tagbar
+let g:tabbar_width=30
+map <leader>t :TagbarToggle<CR>

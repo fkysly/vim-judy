@@ -1,6 +1,16 @@
 #!/bin/bash
 
 echo "installing vim-judy..."
+
+if which apt-get > /dev/null
+then
+  sudo apt-get install -y ctags build-essential cmake
+
+elif which brew > /dev/null
+then
+  brew install g++ ctags
+fi
+
 mv -f ~/.vim ~/.vim_old > /dev/null 2>&1
 mv -f ~/.vimrc ~/.vimrc_old > /dev/null 2>&1
 
