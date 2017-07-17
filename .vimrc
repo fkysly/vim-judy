@@ -37,7 +37,8 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'pangloss/vim-javascript'
 Plug 'Raimondi/delimitMate'
 Plug 'majutsushi/tagbar'
-Plug 'bling/vim-airline'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
 let mapleader=','
@@ -59,3 +60,7 @@ set background=dark
 "let g:solarized_termcolors=256
 let g:solarized_termtrans=1
 colorscheme solarized
+
+" airline-theme
+let g:airline_theme='solarized'
+let g:airline_solarized_bg='dark'
