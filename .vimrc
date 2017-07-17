@@ -1,4 +1,4 @@
-Hyntax enable
+syntax enable
 syntax on
 filetype on
 set cul
