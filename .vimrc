@@ -48,14 +48,6 @@ call plug#end()
 let mapleader=','
 noremap <leader>q :q<cr>
 noremap <leader>w :w<cr>
-noremap <C-j> <C-W>j
-noremap <C-h> <C-W>h
-noremap <C-k> <C-W>k
-noremap <C-l> <C-W>l
-noremap <C-J> <C-W>J
-noremap <C-H> <C-W>H
-noremap <C-K> <C-W>K
-noremap <C-L> <C-W>L
 
 map <leader><leader> :NERDTreeToggle<CR>
 
