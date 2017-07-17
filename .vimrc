@@ -40,6 +40,7 @@ Plug 'majutsushi/tagbar'
 Plug 'bling/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'mhinz/vim-startify'
+Plug 'bling/vim-bufferline'
 call plug#end()
 
 let mapleader=','
