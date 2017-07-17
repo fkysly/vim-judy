@@ -32,8 +32,11 @@ set nocompatible
 
 call plug#begin()
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
+Plug 'scrooloose/nerdtree'
 call plug#end()
 
 let mapleader=','
 noremap <leader>q :q<cr>
 noremap <leader>w :w<cr>
+
+map <leader><leader> :NERDTreeToggle<CR>
