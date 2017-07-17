@@ -52,3 +52,7 @@ set tags+=~/.vim/x86_64-linux-gnu-systags
 " tagbar
 let g:tabbar_width=30
 map <leader>t :TagbarToggle<CR>
+
+" solarized
+set background=dark
+colorscheme solarized
