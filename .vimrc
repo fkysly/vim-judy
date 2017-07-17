@@ -108,20 +108,16 @@ let g:tagbar_type_go = {
     \ 'm:methods',
     \ 'r:constructor',
     \ 'f:functions'
-  \ 
-],
+    \],
   \ 'sro' : '.',
   \ 'kind2scope' : {
     \ 't' : 'ctype',
     \ 'n' : 'ntype'
-  \ 
-},
+    \},
       \ 'scope2kind' : {
     \ 'ctype' : 't',
     \ 'ntype' : 'n'
-  \ 
-},
+    \},
   \ 'ctagsbin'  : 'gotags',
   \ 'ctagsargs' : '-sort -silent'
-  \ 
-}
+  \}
