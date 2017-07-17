@@ -8,7 +8,7 @@ set smartindent
 set cindent
 set tabstop=2
 set softtabstop=2
-set shiftwidth=4
+set shiftwidth=2
 set expandtab
 set smarttab
 set number
@@ -34,6 +34,7 @@ call plug#begin()
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'pangloss/vim-javascript'
 call plug#end()
 
 let mapleader=','
