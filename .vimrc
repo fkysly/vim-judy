@@ -30,6 +30,7 @@ set showmatch
 set matchtime=1
 set noeb
 set nocompatible
+set noswapfile
 
 call plug#begin()
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
