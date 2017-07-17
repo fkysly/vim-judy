@@ -43,7 +43,7 @@ let mapleader=','
 noremap <leader>q :q<cr>
 noremap <leader>w :w<cr>
 
-map <leader>n :NERDTreeToggle<CR>
+map <leader><leader> :NERDTreeToggle<CR>
 
 set tags+=/usr/include/tags
 set tags+=~/.vim/systags
